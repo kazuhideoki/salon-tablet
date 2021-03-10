@@ -21,6 +21,7 @@ export const useStyles = (isTabletPortrait: boolean) =>
     return createStyles({
       root: {
         position: 'absolute',
+        // next/imageだとうまくレスポンシブできなかった
         backgroundImage: "url('/images/feature_img_signin.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
